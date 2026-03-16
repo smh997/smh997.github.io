@@ -39,3 +39,20 @@ p, li {
 ul {
     padding-left: 60px;
 }
+
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #1f3a5f;
+    font-weight: bold;
+}
