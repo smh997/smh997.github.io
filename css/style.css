@@ -112,3 +112,15 @@ h2 {
 .hero-links a:hover {
     text-decoration: underline;
 }
+
+.media-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.media-row img,
+.media-row video {
+    margin: 0;
+}
