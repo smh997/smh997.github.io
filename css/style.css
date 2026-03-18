@@ -116,14 +116,14 @@ h2 {
 .media-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
     margin: 15px 0;
 }
 
 .media-row img,
 .media-row video {
-    margin: 0;
-    display: inline-block;
-    max-width: calc(50% - 10px);
+    flex: 1 1 calc(33.33% - 12px);
+    max-width: calc(33.33% - 12px);
     height: auto;
+    border-radius: 6px;
 }
