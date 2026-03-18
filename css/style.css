@@ -8,17 +8,21 @@ body {
 nav {
     background-color: #1f3a5f;
     padding: 15px 30px;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 15px;
+    margin: 0 15px;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 nav a:hover {
     text-decoration: underline;
+    opacity: 0.9;
 }
 
 h1, h2, p, ul {
