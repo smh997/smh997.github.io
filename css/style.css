@@ -122,8 +122,10 @@ h2 {
 
 .media-row img,
 .media-row video {
-    flex: 1 1 calc(33.33% - 12px);
-    max-width: calc(33.33% - 12px);
+    display: block;
+    width: calc(33.33% - 8px);
+    max-width: calc(33.33% - 8px);
     height: auto;
+    margin: 0;
     border-radius: 6px;
 }
