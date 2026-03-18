@@ -123,4 +123,7 @@ h2 {
 .media-row img,
 .media-row video {
     margin: 0;
+    display: inline-block;
+    max-width: calc(50% - 10px);
+    height: auto;
 }
