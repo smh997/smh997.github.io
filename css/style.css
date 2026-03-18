@@ -133,3 +133,26 @@ h2 {
     max-width: 600px;
     border-radius: 6px;
 }
+
+.arvr-media-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.arvr-media-row img {
+    width: calc(50% - 8px);
+    max-width: calc(50% - 8px);
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.arvr-media-row video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 6px;
+}
