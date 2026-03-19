@@ -30,11 +30,6 @@ h1, h2, p, ul {
     margin-right: 40px;
 }
 
-a {
-    color: #1f3a5f;
-    font-weight: bold;
-}
-
 h1 {
     margin-top: 40px;
     color: #1f3a5f;
@@ -176,4 +171,15 @@ h2 {
 
 html {
     scroll-behavior: smooth;
+}
+
+.quick-links a {
+    color: #1f3a5f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
 }
