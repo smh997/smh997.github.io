@@ -317,6 +317,18 @@ ul {
     }
 }
 
+@media (max-width: 700px) {
+    .honor-media {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .honor-media img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 /* ===== DARK MODE ===== */
 
 body.dark-mode {
