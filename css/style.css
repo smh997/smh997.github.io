@@ -15,10 +15,11 @@ a {
 
 nav {
     background-color: #1f3a5f;
-    padding: 15px 30px;
+    padding: 15px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -264,6 +265,16 @@ ul {
     .arvr-media-row img {
         width: 100%;
         max-width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    nav a {
+        margin: 8px 10px;
+    }
+
+    #theme-toggle {
+        margin-top: 10px;
     }
 }
 
