@@ -215,3 +215,19 @@ html {
     height: auto;
     border-radius: 6px;
 }
+
+.hero-image img {
+    display: block;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 800px) {
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 180px;
+    }
+}
