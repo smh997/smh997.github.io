@@ -113,6 +113,23 @@ h2 {
     text-decoration: underline;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+
 .media-row {
     display: flex;
     flex-wrap: wrap;
