@@ -183,3 +183,17 @@ html {
 .quick-links a:hover {
     text-decoration: underline;
 }
+
+.honor-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.honor-media img {
+    width: calc(50% - 8px);
+    max-width: calc(50% - 8px);
+    height: auto;
+    border-radius: 6px;
+}
