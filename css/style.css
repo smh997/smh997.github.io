@@ -25,6 +25,11 @@ nav a:hover {
     opacity: 0.9;
 }
 
+nav a.active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 h1, h2, p, ul {
     margin-left: 40px;
     margin-right: 40px;
@@ -257,6 +262,10 @@ body.dark-mode {
 /* NAV */
 body.dark-mode nav {
     background-color: #0b2239;
+}
+
+body.dark-mode nav a.active {
+    color: #ffffff;
 }
 
 /* TEXT */
