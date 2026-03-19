@@ -186,15 +186,15 @@ html {
 
 .honor-media {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 16px;
     margin-top: 15px;
-    justify-content: center;
 }
 
 .honor-media img {
     max-width: 450px;
-    width: 100%;
+    width: auto;
     height: auto;
     border-radius: 6px;
 }
