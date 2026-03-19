@@ -246,3 +246,56 @@ html {
 #theme-toggle:hover {
     background-color: rgba(255, 255, 255, 0.15);
 }
+
+/* ===== DARK MODE ===== */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e6e6e6;
+}
+
+/* NAV */
+body.dark-mode nav {
+    background-color: #0b2239;
+}
+
+/* TEXT */
+body.dark-mode p,
+body.dark-mode li {
+    color: #dddddd;
+}
+
+/* HEADINGS */
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #9ecbff;
+}
+
+/* LINKS */
+body.dark-mode .project-card a,
+body.dark-mode .quick-links a,
+body.dark-mode .hero-links a {
+    color: #9ecbff;
+}
+
+/* CARDS */
+body.dark-mode .project-card,
+body.dark-mode .hero {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* SECTION DIVIDER */
+body.dark-mode h2 {
+    border-bottom: 2px solid #2f4358;
+}
+
+/* TOGGLE BUTTON */
+body.dark-mode #theme-toggle {
+    border-color: #dddddd;
+    color: #dddddd;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
